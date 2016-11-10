@@ -1,12 +1,13 @@
-const RUSH = require('../index');
-const Item = RUSH.Item;
-const Contact = RUSH.Contact;
+const Snabb = require('../index');
+const Item = Snabb.Item;
+const Contact = Snabb.Contact;
 
-const client = RUSH.createClient(Object.assign(require('./config'), {
+const client = Snabb.createClient(Object.assign(require('./config'), {
     debug: true,
     simulate: 31*1000,
     sandbox: true
 }));
+
 const del = client.createDelivery({
   pickup: {
     contact: new Contact({

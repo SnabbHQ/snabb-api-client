@@ -1,7 +1,7 @@
 {
-  "name": "snabb-rush",
-  "version": "0.1.11",
-  "description": "SnabbRUSH v3.0 SDK",
+  "name": "snabb-api-client",
+  "version": "0.0.1",
+  "description": "Snabb API client v0.1 SDK",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/unit",

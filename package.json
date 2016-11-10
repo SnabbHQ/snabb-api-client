@@ -1,0 +1,36 @@
+{
+  "name": "snabb-rush",
+  "version": "0.1.11",
+  "description": "SnabbRUSH v3.0 SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/unit",
+    "build": "rm -rf out && mkdir out && babel index.js -d out && babel lib -d out/lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjk/snabb-rush.git"
+  },
+  "keywords": [
+    "snabb"
+  ],
+  "author": "Matthew Keesan <keesan@gmail.com>",
+  "license": "ASL",
+  "bugs": {
+    "url": "https://github.com/mjk/snabb-rush/issues"
+  },
+  "homepage": "https://github.com/mjk/snabb-rush#readme",
+  "dependencies": {
+    "geodesy": "^1.0.2",
+    "google-libphonenumber": "^2.0.2",
+    "lodash": "^3.10.1",
+    "nconf": "^0.8.2",
+    "q": "^1.4.1",
+    "restling": "^0.9.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "mocha": "^2.5.3"
+  }
+}
